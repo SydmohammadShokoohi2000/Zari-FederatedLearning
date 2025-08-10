@@ -1,18 +1,7 @@
-# Python virtual environment folder
-# This is the most important line to add.
 fedml-env/
-
-# Python cache files and compiled files
 __pycache__/
 *.pyc
-
-# Editor-specific settings folders
 .vscode/
 .idea/
-
-# Log files that are generated during runs
 *.log
-
-# Large data files (optional, but good practice)
-# This prevents you from accidentally uploading your 4.6GB HDF5 file.
 data/processed/
