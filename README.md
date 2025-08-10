@@ -1,2 +1,2 @@
 # Zari-FederatedLearning
-A lightweight Federated Learning Framework for Real-Time Intrusion Detection in Vehicular Networks
+A lightweight Federated Learning Framework for Real-Time Intrusion Detection in Vehicular Networks Base on CarHacking Dataset
