@@ -1,0 +1,37 @@
+# ==============================================================================
+# Environment Arguments: How the client communicates.
+# ==============================================================================
+environment_args:
+  backend: MQTT
+  scenario: horizontal
+  mqtt_host: 192.168.100.17
+  mqtt_port: 1883
+
+# ==============================================================================
+# Training Arguments
+# ==============================================================================
+training_args:
+  training_type: cross_silo
+  federated_optimizer: FedAvg
+  epochs: 5 
+  batch_size: 64 
+  learning_rate: 0.0002
+  weight_decay: 0.0001
+
+# ==============================================================================
+# Data Arguments
+# ==============================================================================
+data_args:
+  use_image_input: true  
+  window_size: 27           
+  img_size_default: 64       
+  img_channels_default: 3    
+  input_size: 13             
+
+common_args:
+  using_mlops: false
+  run_id: "FL_IoV_Server_Run_Main" 
+
+device_args:
+  using_gpu: false 
+  gpu_id: null
